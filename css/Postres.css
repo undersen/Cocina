@@ -1,0 +1,23 @@
+
+body {
+  background-image: url(../Media/Postre.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+
+/* Para Dispositivos Mobiles */
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(../Media/Postre.jpg);
+  }
+	/* Presentational style rules only
+ * Not required
+ */
+
+html, body, .container {
+  height: 100%;
+}
+
