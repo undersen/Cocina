@@ -3068,6 +3068,26 @@ fieldset[disabled] .btn-default.active {
   background-color: #337ab7;
   border-color: #2e6da4;
 }
+
+.btn-transparent {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  margin: 15px;
+
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent.focus,
+.btn-transparent:active,
+.btn-transparent.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -6569,4 +6589,4 @@ button.close {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+
