@@ -12,14 +12,40 @@ video {
  -webkit-filter: blur(4px);
 }
 
-@media screen and (max-width: 500px) { 
-  div{width:70%;} 
+
+@media screen and (max-width:320px) {
+  #Titulo
+  {
+  font-size:45px !important;
+  margin-top:30% !important;
+  }
+  video{
+  right: -500px;
+  bottom: -30px;
 }
-@media screen and (max-device-width: 800px) {
-  
-  #CocinaVideo { 
-    -webkit-filter: blur(10px);
-    display: none; }
+
+.btn-transparent {
+ 
+  margin: 5px;
+
+}
+}
+@media screen and (min-width:321px) and (max-width:639px) {
+
+ #Titulo
+  {
+  font-size:70px !important;
+  margin-top:20% !important;
+  }
+
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+
+ #Titulo
+  {
+  font-size:110px !important;
+  margin-top:10% !important;
+  }
 }
 
 @font-face {
@@ -32,24 +58,12 @@ video {
     color:  #fff;
     font-family: "LavanderiaSturdy.otf";
     font-size:121px;
-    margin-top: 200px;
+    margin-top: 10%;
     text-align: center;
 }
 
-@font-face {
-    font-family: "LavanderiaRegular.otf";
-    src: url(../fonts/LavanderiaRegular.otf) ;
-}
-
-.Texto{    
-  width: 40%;
-  margin: 0 auto;
-  text-align: :center;
-  
-}
-.Boton {
-  
-  font-family: "LavanderiaRegular.otf";
+.Center{
+  text-align:center;
 }
 
 
