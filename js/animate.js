@@ -5,3 +5,7 @@ $( "button" ).mouseover(function() {
 $( "button" ).mouseleave(function() {
   $( this ).removeClass( "animated rubberBand");
 });
+
+function GitHub(){
+	window.open('https://github.com/undersen/Cocina')
+}
