@@ -5,27 +5,14 @@
 		this.products = desserts;
 	});
 
-		var desserts =[
-		{
+		var desserts =[{
 			name: 'Canastas de Chocolate',
-			Description:'Canasta de Chocolates para el dia de san valentin , ideal para sorprender su pareja.',
-			Reviews:'0 Reviews',
-
+			Description:'asdfghrewgegegwe',
+			Reviews:'Tomaaaas',
 		},
 		{
-			name: 'Cheesecake',
-			Description:'Canasta de Chocolates para el dia de san valentin , ideal para sorprender su pareja.',
-			Reviews:'0 Reviews'
+			name: 'Canastas de vainilla',
 			
-		},
-
-		{
-			name: 'Rose Water Macarons',
-			Description:'Canasta de Chocolates para el dia de san valentin , ideal para sorprender su pareja.',
-			Reviews:'0 Reviews'
-			
-		}
-
-		];
+		}];
 
 	})();
