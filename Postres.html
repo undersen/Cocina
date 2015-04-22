@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" type="text/css" href="css/component.css" />
         <link rel="stylesheet" href="css/bootstrap.css">
+              <link rel="stylesheet" href="css/General.css">
       
     </head>
     <body>
@@ -25,11 +26,16 @@
         <div class="row">
             <div ng-controller="DessertController as dessert">
             <div class="col-md-10">
-                <div class="col-md-4" ng-repeat="product in dessert.products">
-                     <h1>{{product.name}}</h1>
+<div class="col-md-4" ng-repeat="product in dessert.products">
+                     
 
-                     <section ng-init="tab = 1">  
-                        <ul class="nav nav-pills">
+
+
+                <div class="panel panel-default">
+  <div class="panel-heading"> <h1 id="Titulo">{{product.name}}</h1></div>
+  <div class="panel-body">
+                     <section ng-init="tab =1">  
+                        <ul class="nav nav-tabs">
                             <li ng-class="{ active:tab === 1">
                                 <a href="" ng-click="tab = 1">Descripcion</a>
                             </li>
@@ -38,12 +44,11 @@
                             </li>
                         </ul>
                         <div class="panel" ng-show="tab === 1">
-                            <h4>Descripcion</h4>
                             <p>  {{product.Description}}</p>
                         </div>
 
                         <div class="panel" ng-show="tab === 2">
-                            <h4>Reviesiones</h4>
+                            
                             <p>  {{product.Reviews}}</p>
                         </div>
                      </section>
@@ -54,6 +59,8 @@
             </div>
         </div>
         </div>
+         </div>
+</div>
 
 
 
