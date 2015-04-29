@@ -11,8 +11,87 @@
     text-align: center;
 }
 
-#gallery
+#thumbnailContainer
 {
+margin-top:160px;"
+}
 
+@media screen and (max-width:320px) {
+  h3, .h3 {
+  font-size: 8px;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 6px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+#thumbnailContainer
+	{
+	margin:0px;"
+	}
+	h4, .h4 {
+  font-size: 12px;
+}
+.thumbnail {
+  
+  padding: 1px;
+
+}
+.thumbnail .caption {
+   padding: 1px;
+  color: #333;
+}
+#Titulo
+  {
+  font-size:20px !important;
+  }
+
+  .navbar-brand {
+
+  font-size: 20px;
+  
+}
+.panel-heading {
+  padding: 5px 7px;
+}
+dl {
+  margin-bottom: 5px;
+}
+
+.panel {
+  margin-bottom: 5px;
+}
+
+.btn-transparent {
+  margin: 5px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 5px;
+  margin-bottom: 2.5px;
+}
+
+.panel-body {
+
+  padding: 5px,5px,5px,15px;
+}
+}
+@media screen and (min-width:321px) and (max-width:639px) {
+
+ #Titulo
+  {
+  font-size:70px !important;
+  margin-top:20% !important;
+  }
+
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+
+ #Titulo
+  {
+  font-size:110px !important;
+  margin-top:10% !important;
+  }
 }
 
