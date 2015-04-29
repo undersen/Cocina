@@ -7,43 +7,10 @@ video {
   width: auto;
   height: auto;
   z-index: -100;
+  background-image: ur
   background-size: cover;
   transition: 1s opacity;
  -webkit-filter: blur(4px);
-}
-
-
-@media screen and (max-width:320px) {
-  #Titulo
-  {
-  font-size:45px !important;
-  margin-top:30% !important;
-  }
-  video{
-  right: -500px;
-  bottom: -30px;
-}
-
-.btn-transparent {
-  margin: 5px;
-}
-}
-@media screen and (min-width:321px) and (max-width:639px) {
-
- #Titulo
-  {
-  font-size:70px !important;
-  margin-top:20% !important;
-  }
-
-}
-@media screen and (min-width:640px) and (max-width:959px) {
-
- #Titulo
-  {
-  font-size:110px !important;
-  margin-top:10% !important;
-  }
 }
 
 @font-face {
@@ -52,13 +19,26 @@ video {
 }
 
 #Titulo {
-
     color:  #fff;
     font-family: "LavanderiaSturdy.otf";
     font-size:180px;
     margin-top: 10%;
     text-align: center;
 }
+
+#TituloPostres {
+
+    color:  #000;
+    font-family: "LavanderiaSturdy.otf";
+    font-size:30px;
+    text-align: center;
+}
+
+#thumbnailContainer
+{
+margin-top:160px;"
+}
+
 
 .Center{
   text-align:center;
