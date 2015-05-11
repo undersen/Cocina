@@ -1,9 +1,9 @@
 
-$( "button" ).mouseover(function() {
+$( ".animated" ).mouseover(function() {
   $( this ).addClass( "animated rubberBand");
 });
 
-$( "button" ).mouseleave(function() {
+$( ".animated" ).mouseleave(function() {
   $( this ).removeClass( "animated rubberBand");
 });
 
